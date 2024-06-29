@@ -1,5 +1,5 @@
 ## Book Finder Flutter App 📚 
-Welcome! This project is our first assignment for dzmentorship by [Mahdi-Boullouf](https://github.com/Mahdi-Boullouf), designed to showcase our understanding and implementation of search and sort algorithms. 🚀
+Welcome! This project is the first assignment in the 2 months mentorship by [Mahdi-Boullouf](https://github.com/Mahdi-Boullouf), designed to showcase our understanding and implementation of search and sort algorithms. 🚀
 
 ## Authors
 - [@migueraoui](https://github.com/migueraoui)
