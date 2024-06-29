@@ -5,7 +5,7 @@
 
 Welcome to the Book Finder Flutter App repository! This project is a part of our first assignment for dzmentorship by Mahdi Boulouf, designed to showcase our understanding and implementation of search and sort algorithms. 🚀
 
-📹 Watch the Demo Video ([!([https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg](https://github.com/sidChouaib/Books_App/blob/main/search%20and%20sort%20book%20app.mp4))])
+📹 Watch the Demo Video ![](https://github.com/sidChouaib/Books_App/blob/main/search%20and%20sort%20book%20app.mp4)
 ## Authors
 - [@migueraoui](https://github.com/migueraoui)
 - Me : [@sidChouaib](https://github.com/sidChouaib)
