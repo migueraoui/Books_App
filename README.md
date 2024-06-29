@@ -1,12 +1,11 @@
 ## Book Finder Flutter App 📚 
-Welcome! This project is our first assignment for dzmentorship by Mahdi Boulouf, designed to showcase our understanding and implementation of search and sort algorithms. 🚀
+Welcome! This project is our first assignment for dzmentorship by [Mahdi-Boullouf](https://github.com/Mahdi-Boullouf), designed to showcase our understanding and implementation of search and sort algorithms. 🚀
 
-## Demo Video 📹  ![](https://github.com/sidChouaib/Books_App/blob/main/search%20and%20sort%20book%20app.gif)
 ## Authors
 - [@migueraoui](https://github.com/migueraoui)
 - Me : [@sidChouaib](https://github.com/sidChouaib)
 
- ## Features🌟
+## Features🌟
 🔍 Real-Time Search
 Instant Feedback: As you type, the app filters and displays books matching the entered letters in real-time.
 Seamless Experience: Enjoy a smooth and responsive search functionality that makes finding your favorite books a breeze.
@@ -28,6 +27,5 @@ Favorites: Allowing users to mark books as favorites for easy access.
 - Gmail: chouaib.sid.ubma@gmail.com
 - LinkedIn: (https://www.linkedin.com/in/chouaib-sid/)
 
-Happy Coding! 🎉
 
-This project is a first assignment of the dzmentorship program by Mahdi Boulouf.
+## Demo Video 📹  ![](https://github.com/sidChouaib/Books_App/blob/main/search%20and%20sort%20book%20app.gif)
