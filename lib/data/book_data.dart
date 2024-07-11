@@ -131,10 +131,10 @@ List<Book> bookData = [
     dateReleased: "1999",
     writerBook: "Andrew Hunt",
     keywords: [
-      "Pragmatic Programmer",
-      "Software Development",
       "Coding Practices",
       "Programming",
+      "Pragmatic Programmer",
+      "Software Development",
       "Best Practices",
       "Professional Development",
       "Software Engineering"

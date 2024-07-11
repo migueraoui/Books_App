@@ -57,7 +57,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: AppBar(
         title: const Text("WizardBook Info"),
@@ -118,28 +117,26 @@ class _HomeScreenState extends State<HomeScreen> {
           //     );
           //   },
           // )
-        PopupMenuButton<String>(
-          icon: Icon(Icons.sort),
-      onSelected: (value) {
-        setState(() {
-            if (value == 'Sort by Alphabet') {
-              sortBooksByName();
-            }
-            else  if (value == 'Sort by Year') {
-              sortBooksByYear();
-            }
- 
-        });
-      },
-      itemBuilder: (BuildContext context) {
-        return {'Sort by Alphabet', 'Sort by Year'}.map((String choice) {
-          return PopupMenuItem<String>(
-            value: choice,
-            child: Text(choice),
-          );
-        }).toList();
-      },
-    ),
+          PopupMenuButton<String>(
+            icon: const Icon(Icons.sort),
+            onSelected: (value) {
+              setState(() {
+                if (value == 'Sort by Alphabet') {
+                  sortBooksByName();
+                } else if (value == 'Sort by Year') {
+                  sortBooksByYear();
+                }
+              });
+            },
+            itemBuilder: (BuildContext context) {
+              return {'Sort by Alphabet', 'Sort by Year'}.map((String choice) {
+                return PopupMenuItem<String>(
+                  value: choice,
+                  child: Text(choice),
+                );
+              }).toList();
+            },
+          ),
         ],
       ),
       body: Center(

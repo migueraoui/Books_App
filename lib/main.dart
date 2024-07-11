@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sortingandsearchingalgorithm/Screens/home.dart';
 
-import 'Screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
             ColorScheme.fromSeed(seedColor: Colors.deepPurple.shade200),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: Home(),
     );
   }
 }
