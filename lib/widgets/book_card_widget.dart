@@ -15,20 +15,21 @@ class BookCardWidget extends StatelessWidget {
         child: Column(
           children: [
             Expanded(child: buildImage(book: book)),
-            // const SizedBox(
-            //   height: 5,
-            // ),
+            const SizedBox(
+              height: 15,
+            ),
             Text(
+              overflow : TextOverflow.ellipsis,
               book.nameBook,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 30, ),
             ),
             const SizedBox(
-              height: 5,
+              height: 10,
             ),
             buildKeywords(book: book),
             const SizedBox(
-              height: 10,
+              height: 15,
             ),
             // Expanded(child: buildRating(book: book)),
           ],

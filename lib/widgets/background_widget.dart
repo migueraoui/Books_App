@@ -34,7 +34,7 @@ class _BackgroundWidgetState extends State<BackgroundWidget> {
           Positioned.fill(
             child: Image.asset(
               book.imageBook,
-              fit: BoxFit.cover,
+              fit: BoxFit.fill,
             ),
           ),
           Container(

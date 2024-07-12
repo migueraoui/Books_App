@@ -493,12 +493,12 @@ List<Book> bookData = [
     dateReleased: "1972",
     writerBook: "Ole-Johan Dahl, Edsger W. Dijkstra, C.A.R. Hoare",
     keywords: [
-      "Structured Programming",
       "Programming Paradigm",
+      "Modularity",
+      "Structured Programming",
       "Algorithm Design",
       "Software Engineering",
       "Code Structuring",
-      "Modularity",
       "Control Structures"
     ],
     description: "Principles of structured programming.",

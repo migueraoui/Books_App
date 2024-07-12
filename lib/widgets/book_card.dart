@@ -26,17 +26,30 @@ class BookCard extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 100),
-              child: Text(
-                book.nameBook,
-                style:
-                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Center(
+                child: Text(
+                  book.nameBook,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                      fontSize: 24, fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                Text(
+                  "Author: ${book.writerBook}",
+                  style: const TextStyle(
+                      fontSize: 16, fontStyle: FontStyle.italic),
+                ),
+                Text(
+                  "Year : ${book.dateReleased}",
+                  style: const TextStyle(
+                      fontSize: 16, fontStyle: FontStyle.italic),
+                ),
                 const Row(
                   children: [
                     Icon(
@@ -50,16 +63,6 @@ class BookCard extends StatelessWidget {
                     ),
                   ],
                 ),
-                Text(
-                  "Written by: ${book.writerBook}",
-                  style: const TextStyle(
-                      fontSize: 16, fontStyle: FontStyle.italic),
-                ),
-                Text(
-                  "Year : ${book.dateReleased}",
-                  style: const TextStyle(
-                      fontSize: 16, fontStyle: FontStyle.italic),
-                )
               ],
             ),
 
@@ -72,7 +75,7 @@ class BookCard extends StatelessWidget {
             // ),
             const SizedBox(height: 20),
             Text(
-              "Resume : ",
+              "Description : ",
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
