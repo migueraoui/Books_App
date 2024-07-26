@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sortingandsearchingalgorithm/Screens/home.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
