@@ -70,16 +70,4 @@ class BookCardWidget extends StatelessWidget {
             .toList(),
       );
 
-  // Widget buildRating({required Book book}) => Row(
-  //       crossAxisAlignment: CrossAxisAlignment.center,
-  //       mainAxisAlignment: MainAxisAlignment.center,
-  //       children: [
-  //         Text(book.rating.toStringAsFixed(1)),
-  //         SizedBox(width: 10),
-  //         ...List.generate(
-  //           book.stars,
-  //           (index) => Icon(Icons.star_rate, size: 18, color: Colors.orange),
-  //         ),
-  //       ],
-  //     );
 }
